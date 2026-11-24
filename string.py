@@ -36,3 +36,7 @@ if is_palindrome(text):
     print("The string is a palindrome.")
 else:
     print("The string is not a palindrome.")
+
+def count_words(s):
+    return len(s.split())
+
